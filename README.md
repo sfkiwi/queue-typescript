@@ -6,6 +6,11 @@ and iterable protocols.
 
 This queue uses the [linked-list-typescript][list] as the underlying datastructure.
 
+See Also:
+ - [linked-list-typescript][list]
+ - [stack-typescript][stack]
+ - [hashlist-typescript][hashlist]
+
 ## Installation
 
 [npm][]:
@@ -270,3 +275,9 @@ result // => [4, 5, 6, 7]
 [wiki]: https://en.wikipedia.org/wiki/Queue_(abstract_data_type)
 
 [list]: https://www.npmjs.com/package/linked-list-typescript
+
+[stack]: https://www.npmjs.com/package/stack-typescript
+
+[queue]: https://www.npmjs.com/package/queue-typescript
+
+[hashlist]: https://www.npmjs.com/package/hashlist-typescript
