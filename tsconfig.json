@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "outDir": "lib/",
+    "declaration": true,
+    "strictNullChecks": false,
+    "noImplicitAny": true,
+    "skipLibCheck": true,
+    "target": "es6",
+    "module": "commonjs",
+    "sourceMap": true,
+  },
+  "include": [
+    "./src/**/*",
+    "./test/**/*"
+  ]
+}

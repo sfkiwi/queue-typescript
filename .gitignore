@@ -1,0 +1,7 @@
+# Build Directories
+lib
+.nyc_output
+coverage
+
+# Dependencies
+node_modules

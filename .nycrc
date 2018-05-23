@@ -1,0 +1,16 @@
+{
+  "nyc": {
+    "extension": [ ".js" ],
+    "include": [ "lib/**/*.js" ],
+    "exclude": [ "coverage/**", "src/**/*", "**/*.d.ts", "**/*Test.ts" ],
+    "require": [
+      "ts-node/register",
+      "source-map-support/register"
+    ],
+    "reporter": [ "html", "text-summary" ],
+    "sourceMap": true,
+    "cache": true,
+    "instrument": false,
+    "all": true
+  }
+}
